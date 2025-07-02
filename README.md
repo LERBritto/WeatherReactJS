@@ -9,7 +9,7 @@ Tecnologias usadas:
 - **ESLint** — linting para manter o código consistente
 - (Opcional) **API pública de previsão meteorológica**
 
-## 🚀 Como rodar localmente
+# Como rodar localmente
 
 ```bash
 # Clone o repositório
