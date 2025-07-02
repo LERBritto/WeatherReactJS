@@ -1,12 +1,58 @@
-# React + Vite
+# WeatherReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicativo web de previsão do tempo desenvolvido em React com Vite.
 
-Currently, two official plugins are available:
+🧩 Tecnologias usadas
+Liste o stack:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+markdown
+Copiar
+Editar
+- **React** (via Vite)
+- **Vite** — bundler rápido e moderno
+- **ESLint** — linting para manter o código consistente
+- (Opcional) **API pública de previsão meteorológica**
+🚀 Como rodar localmente
+bash
+Copiar
+Editar
+# Clone o repositório
+git clone https://github.com/LERBritto/WeatherReactJS.git
+cd WeatherReactJS
 
-## Expanding the ESLint configuration
+# Instale dependências
+npm install
+# ou
+yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Execute em modo dev
+npm run dev
+# ou
+yarn dev
+
+# Build de produção
+npm run build
+# ou
+yarn build
+⚙️ Variáveis de ambiente
+Explique as variáveis em .env, como uma VITE_WEATHER_API_KEY, e onde obter a chave da API (ex.: OpenWeatherMap).
+
+🧑‍💻 Estrutura do projeto
+Explique brevemente as pastas e arquivos principais:
+
+bash
+Copiar
+Editar
+/src
+  ├─ App.jsx       # componente principal
+  ├─ components/   # UI (input, cards)
+  └─ services/     # chamada à API
+public/ .env .gitignore package.json vite.config.js
+✔️ Funcionalidades
+⚡ Pesquisa por cidade
+
+🌡️ Exibe dados atuais (temperatura, clima, umidade…)
+
+📅 Previsão 5–7 dias (se implementado)
+
+Tratamento de erros (cidade não encontrada)
