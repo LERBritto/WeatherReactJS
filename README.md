@@ -15,11 +15,15 @@ Tecnologias usadas:
 # Clone o repositório
 git clone https://github.com/LERBritto/WeatherReactJS.git
 cd WeatherReactJS
+```
 
 # Instale dependências
+```bash
 npm install
+```
 
 # Execute em modo dev
+```bash
 npm run dev
 ```
 
